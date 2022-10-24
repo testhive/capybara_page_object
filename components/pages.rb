@@ -28,7 +28,7 @@ class MacPage < BasePage
   def initialize
     @url = 'https://www.apple.com/uk/mac/'
     @title = 'Mac'
-    @category_nav = CategoryNavigation.new ['MacBook', 'MacBook Air', 'MacBook Pro', 'iMac', 'Mac Pro', 'Mac mini', 'Accessories', 'macOS Sierra', 'Compare']
+    @category_nav = CategoryNavigation.new ['MacBook Air', 'MacBook Pro', 'iMac', 'Mac Pro', 'Mac mini', 'Accessories', 'Compare']
   end
   def verify_categories_on_page
     @category_nav.verify_categories
@@ -40,7 +40,7 @@ class IpadPage < BasePage
   def initialize
     @url = 'https://www.apple.com/uk/ipad/'
     @title = 'iPad'
-    @category_nav = CategoryNavigation.new ['iPad Pro', 'iPad', 'iPad mini 4', 'iOS 10', 'Accessories', 'Compare']
+    @category_nav = CategoryNavigation.new ['iPad Pro', 'iPad', 'iPad Air', 'iPad mini', 'Accessories', 'Compare']
   end
   def verify_categories_on_page
     @category_nav.verify_categories
