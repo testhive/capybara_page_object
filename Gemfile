@@ -6,3 +6,4 @@ gem 'capybara'
 gem 'rspec'
 gem 'selenium-webdriver'
 gem 'webdrivers'
+gem "rack", ">= 2.2.3.1"
